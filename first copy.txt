@@ -1,0 +1,22 @@
+#include <iostream>
+#include<string.h
+using namespace std;
+class ExpTree
+{
+    class node
+{public:
+char Data;
+Node *Left,*Right;
+Node(char C=0){
+    Data=C;Right=Left=NULL;}
+}*Root;
+public:
+ExpTree()Root=NULL;}
+void Post_create(char[]);
+void pre_create(Node*);
+void preOrder(Node*);
+void inorder(Node*);
+void postOrder(Node*);
+// void NonRpre();
+// void NonRin();
+// void NonRpost(
